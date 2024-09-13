@@ -4,45 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
       <select>
+        <option value="">Select a City...</option>
         <option value="">New York</option>
         <option value="">London</option>
         <option value="">Tokyo</option>
         <option value="">Paris</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="chicago">
         <div>
           <h2>Chicago</h2>
-          <div class="date">September 9th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">06:43 <small> PM </small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+
+      <div class="city" id="denver">
         <div>
-          <h2>Houston</h2>
-          <div class="date">September 9th 2024</div>
+          <h2>Denver</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">06:43 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+
+      <div class="city" id="vancouver">
         <div>
-          <h2>Pittsburgh</h2>
-          <div class="date">September 9th 2024</div>
+          <h2>Vancouver</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">06:43 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+
+      <div class="city" id="st-johns">
         <div>
-          <h2>Miami</h2>
-          <div class="date">September 9th 2024</div>
+          <h2>St Johns</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">06:43 <small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
