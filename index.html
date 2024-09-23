@@ -11,14 +11,15 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a City...</option>
-        <option value="">New York</option>
-        <option value="">London</option>
-        <option value="">Tokyo</option>
-        <option value="">Paris</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Europe/Paris">Paris</option>
       </select>
 
+      <div id="cities">
       <div class="city" id="chicago">
         <div>
           <h2>Chicago</h2>
@@ -26,7 +27,6 @@
         </div>
         <div class="time"></div>
       </div>
-
       <div class="city" id="denver">
         <div>
           <h2>Denver</h2>
@@ -50,6 +50,7 @@
         </div>
         <div class="time"></div>
       </div>
+    </div>
     </div>
     <footer>
       This project was coded by <strong>Brittany Chapman</strong> and is
